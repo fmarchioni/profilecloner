@@ -11,6 +11,7 @@ Usage:
     /from=value destinationvalue [/from=value destinationvalue] ....
 ----
 Options:
+----
   --controller=<host> | -c <host>       : Defaults to the setting in jboss-cli.xml if you have one,
   --port=<port>                           or localhost and 9999 (wildfly:9990)
   --username=<user> | -u <user>         : When not set, $local authentication is attempted
@@ -20,8 +21,9 @@ Options:
   --add-deployments=<true|false> | -ad  : By default cloning a server-group will skip the deployments
                                           If you first copy the content folder and clone the deployments,
                                           you can enable this
+----
 
-This project has been tested with WildFly 26 and Java 11
+This project has been tested with **WildFly 26** and **Java 11**
 
 Most recent updates: http://www.mastertheboss.com/jbossas/jboss-script/reverse-engineer-your-jboss-as-wildfly-configuration-to-cli/
 
