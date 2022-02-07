@@ -1,7 +1,7 @@
 profilecloner
 =============
 ~~~
-JBoss WildFly / JBoss EAP 6.1+ Profile (and more) Cloner - by Tom Fonteyne
+This is my fork of JBoss WildFly / JBoss EAP 6.1+ Profile (and more) Cloner - by Tom Fonteyne
 Usage:
  java -cp $JBOSS_HOME/bin/client/jboss-cli-client.jar:profilecloner.jar
     org.jboss.tfonteyne.profilecloner.Main
@@ -19,6 +19,10 @@ Options:
   --add-deployments=<true|false> | -ad  : By default cloning a server-group will skip the deployments
                                           If you first copy the content folder and clone the deployments,
                                           you can enable this
+
+This project has been tested with WildFly 26 and Java 11
+
+Most recent updates: http://www.mastertheboss.com/jbossas/jboss-script/reverse-engineer-your-jboss-as-wildfly-configuration-to-cli/
 
 Examples for "/from=value destinationvalue":
   Domain mode:
